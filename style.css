@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(185, 182, 182); 
+    font-family: 'Fira Sans', sans-serif;
+    height: 150%;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+
+
+}
+
+.sidebar nav {
+    padding: 10px;
+    
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+
+.sidebar nav li  a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.main {
+
+    /* background-color: green; */
+    width: 85vw;
+}
+
+.container {
+
+    display: flex;
+    
+}
+
+.infoContainer{
+    /* background-color:yellow; */
+    width: 85vw;
+    height: 58vh;
+    margin: 110px ;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.AnalsytPic img {
+    height: 78vh;
+}
+
+.AnalystInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Info{
+font-size: 3em;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.position{
+    margin-top: 4px;
+font-size: 30px;
+
+
+}
+
+.moreabout{
+
+    margin-top: 10px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.buttons a{
+    margin: 0 5px 0 0;
+}
+
+.buttons button{
+    color: white;
+    background-color: blueviolet;
+    padding: 7px;
+    border-radius: 15px;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 3px 4px;
+    cursor: pointer;
+    
+}
+
+.buttons button:hover{
+    background-color: rgb(255, 251, 251);
+    color:blueviolet;
+  
+
+}
+
+.contact{
+ 
+    padding-left: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin: 10px 88px;
+    
+    
+}
+
+.contact h1{
+
+    font-family: 'Fira Sans', sans-serif;
+    padding: 12px 0;
+}
+
+.contact form div{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 5px;
+}
+
+.contact form div input{
+    width: 26vw;
+    border-radius: 10px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width:20px;
+    margin: 3px 0;
+
+
+}
+
+.btn{
+    color: white;
+    background-color: blueviolet;
+    padding: 7px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(255, 251, 251);
+    color:blueviolet;
+}
+
+.aboutitem{
+
+    margin: 20px;
+}
+.aboutitem h2{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.aboutitem p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+.aboutcontainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: -webkit-xxx-large;
+    margin: 10px 20px;
+   
+}
+
+.aboutcontainer{
+
+    margin: 0 88px;
+}
+
+
+.skillContainer{
+
+    margin: 0 88px;
+
+
+}
+
+.skillContainer sidebargo{
+
+    display: flexbox;
+    
+
+}
+.skill{
+
+    width:25vw;
+    height:6px;
+    background-color: green;
+    margin: 5px;
+}
+
+.sillItem{
+    display:flexbox;
+    margin: 0 450px;
+    font-size: small;
+    padding: 5px;
+}
+
+.skillstyle{
+
+    margin: 0 100px 10px;
+
+}
+.hundred{
+    width: 300px;
+    background-color: aqua;
+}
+
+.s5{
+
+    width: 225px;
+    background-color: blueviolet;
+}
+
+.fifty{
+    width: 150px;
+    background-color: yellow;
+}
+
+.t5{
+background-color: brown;
+    width: 75px;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+ .buttons{
+
+    font-size: 6px;
+ }
+
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    } */
+    .AnalsytPic{
+        display: none;
+    }
+    .container,.contact{
+        margin: 50px 8px;
+    }
+    }
+
+.hamburger{
+
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+
+    margin-left: 140px;
+    margin-top: 4px;
+}
+
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+    
+}
+
+
+.projectdetails h1{
+    margin: 0 88px;
+    
+}  
+      
+.projectname{
+
+    margin: 0 88px;
+    padding: 10px;
+}
+
